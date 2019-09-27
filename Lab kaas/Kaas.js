@@ -1,4 +1,4 @@
-alert("welkom bij: raad de kaas");
+alert("Welkom bij: raad de kaas");
 
     var kaas = prompt("is de kaas geel?","ja of nee");
     if(kaas == "ja") {
@@ -14,7 +14,7 @@ alert("welkom bij: raad de kaas");
                 document.write("de kaas die u bedoelt is: " + kaas);
             }
         }
-else if(gaten == "nee"){
+        else if(gaten == "nee"){
             var steen = prompt("Is de kaas zo hard als steen?", "ja of nee");
             if(steen == "ja"){
                 var kaas = "Pamigiano Reggiano";
